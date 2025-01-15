@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cosmic Emporium - Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">Dark Mode 🌓</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="shop">
+        <h1>Shop Our Collection</h1>
+        <form>
+          <label for="search">Search:</label>
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for cosmic treasures..."
+          />
+          <button type="submit">Go</button>
+        </form>
+        <div class="product-list">
+          <div class="product">
+            <img src="public/images/moon-lamp.png" />
+            <h2>Moon Lamp</h2>
+            <p>Price: $29.99</p>
+            <p>
+              Bring the beauty of the moon into your home with this realistic,
+              dimmable moon lamp.
+            </p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="public/images/astronaut-pen.png" />
+            <h2>Astronaut Pen</h2>
+            <p>Price: $14.99</p>
+            <p>
+              Write in zero gravity, underwater, or upside down with this
+              space-grade pen!
+            </p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="public/images/night-light.png" />
+            <h2>Stellar Projection Night Light</h2>
+            <p>Price: $39.99</p>
+            <p>
+              Transform your room into a galaxy with this projection light that
+              displays stars and planets on your walls and ceiling.
+            </p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="public/images/cosmic-notebook.png" />
+            <h2>Cosmic Notebook Set</h2>
+            <p>Price: $19.99</p>
+            <p>
+              A set of three beautifully designed notebooks featuring celestial
+              patterns, perfect for journaling or stargazing notes.
+            </p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="public/images/nebula-mug.png" />
+            <h2>Nebula Coffee Mug</h2>
+            <p>Price: $12.99</p>
+            <p>
+              Sip your favorite beverage from this heat-sensitive mug that
+              reveals a vibrant nebula design when hot liquid is poured in.
+            </p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" id="star-map">
+            <img src="public/images/star-map.png" />
+            <h2>Glow-in-the-dark star map</h2>
+            <p>Price: $9.99</p>
+            <p>
+              Explore the night sky from the comfort of your home with this
+              glow-in-the-dark star map, featuring constellations and celestial
+              wonders to guide your cosmic journey.
+            </p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
