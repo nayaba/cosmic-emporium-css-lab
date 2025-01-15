@@ -12,7 +12,6 @@ Welcome to the **Cosmic Emporium Lab**! In this lab, you will style an e-commerc
 ---
 
 ## Getting Started
-- **Create a CSS File:**
    - `Fork` and `clone` this repository.
 
 ### Suggested Styling
