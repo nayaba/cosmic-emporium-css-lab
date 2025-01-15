@@ -13,8 +13,7 @@ Welcome to the **Cosmic Emporium Lab**! In this lab, you will style an e-commerc
 
 ## Getting Started
 - **Create a CSS File:**
-   - Create a file named `styles.css` in the `css/` directory.
-   - Link the CSS file to the provided HTML using the `<link>` tag in the `<head>` section.
+   - `Fork` and `clone` this repository.
 
 ### Suggested Styling
 1. **Style the Navbar:**
